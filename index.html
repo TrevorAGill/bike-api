@@ -2,8 +2,9 @@
 <html>
   <head>
     <link rel="stylesheet" href="build/css/vendor.css">
-    <script src="build/js/vendor.min.js"></script>
+  <script src="build/js/vendor.min.js"></script>
     <script type="text/javascript" src="build/js/app.js"></script>
+
     <title>Help reunite riders with their bikes</title>
   </head>
   <body>
@@ -12,22 +13,24 @@
       <form id="bikeForm">
         <div class = "form-group">
           <label for="location">Zip Code:</label>
-          <input id="location" type="number">
+          <input id="location" type="number" value="97206">
         </div>
         <div class = "form-group">
           <label for="manufacturer">Manufacturer:</label>
-          <input id="manufacturer" type="text">
+          <input id="manufacturer" type="text" value="trek">
         </div>
         <div class = "form-group">
           <label for="color">Frame Color:</label>
-          <input id="color" type="text">
+          <input id="color" type="text" value="blue">
         </div>
         <div class = "form-group">
           <label for="distance">Search Radius:</label>
-          <input id="distance" type="number">
+          <input id="distance" type="number" value="20">
         </div>
         <button type="submit" class="btn">Submit</button>
       </form>
+      <div class = "results">
+      </div>
     </div>
   </body>
 </html>
